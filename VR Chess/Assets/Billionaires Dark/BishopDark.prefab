@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &699550803709644677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 702086257848100493}
+  - component: {fileID: 704458436529813217}
+  - component: {fileID: 712503843615299331}
+  m_Layer: 0
+  m_Name: BishopDark
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &702086257848100493
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699550803709644677}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -9.415, y: 0, z: 5.691}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1025136433878652838}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!33 &704458436529813217
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699550803709644677}
+  m_Mesh: {fileID: 4300000, guid: 9872e0b509ff2d04299e3fe92e0deacc, type: 3}
+--- !u!23 &712503843615299331
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699550803709644677}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 519bb7ad9c0b01145b66756f3c261e30, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &698266139793862733
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 702086257848100493}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 4270f3a176060664f903e121c3d87414, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.3430004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4270f3a176060664f903e121c3d87414, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.897
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4270f3a176060664f903e121c3d87414, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.763
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4270f3a176060664f903e121c3d87414, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.021521976
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4270f3a176060664f903e121c3d87414, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.18510258
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4270f3a176060664f903e121c3d87414, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.26596642
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4270f3a176060664f903e121c3d87414, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.945799
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4270f3a176060664f903e121c3d87414, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4270f3a176060664f903e121c3d87414, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4270f3a176060664f903e121c3d87414, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4270f3a176060664f903e121c3d87414, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4270f3a176060664f903e121c3d87414, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.34000003
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4270f3a176060664f903e121c3d87414, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.34
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4270f3a176060664f903e121c3d87414, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.34000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4270f3a176060664f903e121c3d87414, type: 3}
+      propertyPath: m_Name
+      value: bill gates
+      objectReference: {fileID: 0}
+    - target: {fileID: 1225543507368644787, guid: 4270f3a176060664f903e121c3d87414, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 96ef4f017af94bc468ef2620eb445159, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4270f3a176060664f903e121c3d87414, type: 3}
+--- !u!4 &1025136433878652838 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4270f3a176060664f903e121c3d87414, type: 3}
+  m_PrefabInstance: {fileID: 698266139793862733}
+  m_PrefabAsset: {fileID: 0}
